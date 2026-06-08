@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theeraphat Srikeing</title>
+  <meta name="description"
+    content="Theeraphat — Software Developer specializing in Backend Engineering, ERP Systems, and Full-Stack Web Development. Bangkok, Thailand.">
+  <link rel="icon" type="image/png" href="assets/avatar.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ─── NAV ─── -->
+  <nav>
+    <a class="logo" href="#home"><span class="logo-dot"></span>Portforio.Lay</a>
+    <div class="nav-center">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#background">Background</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-right">
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+      <button id="lang-toggle" class="lang-pill">EN / TH</button>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section id="home" class="hero">
+    <div class="hero-visual">
+      <div class="hero-image-wrap">
+        <img src="assets/avatar.png" alt="Theeraphat Srikeing" class="hero-img"
+          onerror="this.style.display='none'; document.getElementById('profile-fallback').style.display='flex';">
+        <div class="hero-img-fallback" id="profile-fallback" style="display:none;">
+          <i class="fas fa-user"></i>
+          <span>PROFILE.PNG</span>
+        </div>
+        <div class="hero-badge">
+          <div class="badge-icon"><i class="fa-solid fa-address-card"></i></div>
+          <div class="badge-text">
+            <span class="badge-label">ธีรภัทร์ สีเกี๋ยง</span>
+            <span class="badge-value">เลย์</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-box">
+          <div class="stat-num">3.11</div>
+          <div class="stat-label">GPA · First Class Honors</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">0</div>
+          <div class="stat-label">Work Experience</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">24 year</div>
+          <div class="stat-label">Age</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-eyebrow">Computer Science student</div>
+      <h1 class="hero-name">
+        Theeraphat<br>
+        <span class="accent-word">Srikeing</span>
+      </h1>
+      <div class="typing-wrapper">
+        <span class="typing"></span>
+        <span class="typing-cursor"></span>
+      </div>
+      <p class="hero-role-line">
+        Computer Science Student @ Rangsit University | Passionate about Tech & Software Development | Aspiring Software
+        Engineer eager to learn and build impactful solutions.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View Projects <i class="fas fa-arrow-right"
+            style="font-size:0.75rem"></i></a>
+        <a href="assets/Theeraphat.pdf" download="Theeraphat_resume.pdf" class="btn-ghost"><i class="fas fa-download"
+            style="font-size:0.75rem"></i> Resume</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/Theeraphat101" target="_blank" rel="noopener" class="social-link"
+          aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:talay.teerapat@gmail.com" class="social-link" aria-label="Email"><i
+            class="fas fa-envelope"></i></a>
+        <a href="https://line.me/ti/p/IqTS58qMnj" target="_blank" rel="noopener" class="social-link"
+          aria-label="Telegram"><i class="fa-brands fa-line"></i></a>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── ABOUT ─── -->
+  <section id="about" class="section reveal">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <h2 class="section-title">About</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div>
+        <p class="about-lead">Computer Science Student @ Rangsit University | Passionate about Tech & Software
+          Development |
+          Aspiring Software Engineer eager to learn and build impactful solutions.
+        </p>
+        <p class="about-body">
+          <strong style="color:var(--ink); font-weight:500;">Theeraphat Srikeing (Lay)</strong> I am a Computer Science
+          student
+          at Rangsit University with a strong passion for technology and software development. My journey in tech is
+          driven by a
+          love for problem-solving and turning complex ideas into clean, efficient code. I am constantly exploring
+          modern frameworks
+          and tech trends—particularly in web/mobile development and emerging technologies. Currently, I am seeking
+          opportunities (such as internships or junior roles)
+          where I can apply my academic foundation, collaborate with development teams, and contribute to building
+          impactful software solutions."
+        </p>
+      </div>
+      <div>
+        <div class="interests-label">Engineering Interests</div>
+        <div class="interests-list" style="margin-bottom:2.5rem;">
+          <span class="interest-tag">Backend Architecture</span>
+          <span class="interest-tag">ERP &amp; Business Systems</span>
+          <span class="interest-tag">Microservices</span>
+          <span class="interest-tag">Distributed Systems</span>
+          <span class="interest-tag">API Platform Design</span>
+          <span class="interest-tag">System Scalability</span>
+          <span class="interest-tag">Clean Architecture</span>
+          <span class="interest-tag">Enterprise Integration</span>
+        </div>
+        <!-- <div class="stat-box"
+          style="display:flex; align-items:center; gap:1rem; background:var(--accent-glow); border-color:rgba(61,90,252,0.2);">
+          <div class="badge-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div>
+            <div class="badge-label">Currently</div>
+            <div class="badge-value" style="color:var(--ink);">Software Developer @ Sirisoft</div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── BACKGROUND ─── -->
+  <section id="background" class="section reveal">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2 class="section-title">Background</h2>
+      <div class="section-line"></div>
+    </div>
+    <div style="max-width:680px;">
+      <div class="timeline">
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-date">2023 — 2026</div>
+          <div class="tl-title">EDUCATION</div>
+          <div class="tl-org"><i class="fas fa-university" style="font-size:0.7rem;"></i> Rangsit University · Faculty
+            of Information Technology</div>
+          <p class="tl-body">Bachelor of Science (B.S.) in Computer Science</p>
+          <div class="tl-tags">
+            <span class="tl-tag">GPAX 3.11</span>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-date">2021 — 2023</div>
+          <div class="tl-title">EDUCATION</div>
+          <div class="tl-org"><i class="fas fa-university" style="font-size:0.7rem;"></i> Siam Business Administration
+            Technological College</div>
+          <p class="tl-body">High Vocational Certificate in Digital Business Technology</p>
+          <div class="tl-tags">
+            <span class="tl-tag">GPAX 3.87</span>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-date">2018 — 2021</div>
+          <div class="tl-title">EDUCATION</div>
+          <div class="tl-org"><i class="fa-solid fa-school" style="font-size:0.7rem;"></i> Siam Business Administration
+            Technological College</div>
+          <p class="tl-body">Vocational Certificate in Business Computer</p>
+          <div class="tl-tags">
+            <span class="tl-tag">GPAX 3.86</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── SKILLS ─── -->
+  <section id="skills" class="section reveal">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <h2 class="section-title">What I Work With</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-wrapper">
+
+      <!-- Languages -->
+      <div>
+        <div class="skill-cat-title"><i class="fas fa-server"
+            style="margin-right:0.5rem;font-size:0.75rem;"></i>Languages</div>
+        <div class="skill-grid">
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fab fa-java"></i></div><span class="skill-name">Java</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fab fa-python"></i></div><span class="skill-name">Python</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fa-solid fa-c"></i></div><span class="skill-name">C++</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fa-solid fa-code"></i></div><span class="skill-name">Dart</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fab fa-js"></i></div><span class="skill-name">JavaScript</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fa-brands fa-html5"></i></div><span class="skill-name">HTML/CSS</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Frameworks & Libraries -->
+      <div>
+        <div class="skill-cat-title"><i class="fas fa-building"
+            style="margin-right:0.5rem;font-size:0.75rem;"></i>Frameworks & Libraries</div>
+        <div class="skill-grid">
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fa-brands fa-node"></i></div><span class="skill-name">Node.js</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fa-solid fa-code"></i></div><span class="skill-name">Flutter</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fa-solid fa-code"></i></div><span class="skill-name">PyTorch</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fa-solid fa-code"></i></div><span class="skill-name">OpenCV</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Databases -->
+      <div>
+        <div class="skill-cat-title"><i class="fas fa-database"
+            style="margin-right:0.5rem;font-size:0.75rem;"></i>Databases & Tools</div>
+        <div class="skill-grid">
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fas fa-table"></i></div><span class="skill-name">MySQL</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fas fa-leaf"></i></div><span class="skill-name">MongoDB</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fas fa-server"></i></div><span class="skill-name">Firebase</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fa-solid fa-palette"></i></div><span class="skill-name">Figma</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── PROJECTS ─── -->
+  <section id="projects" class="section reveal">
+    <div class="section-header">
+      <span class="section-num">04</span>
+      <h2 class="section-title">Selected Projects</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-grid">
+
+      <!-- 01 Lottery -->
+      <div class="project-card" data-project data-title="Workspace Booking System" data-img="assets/Lottery_project.png"
+        data-tags="Flutter,Dart,Firebase"
+        data-desc="A production-oriented retail point-of-sale and inventory management system. The backend is written in Go using the Gin framework, structured with Clean Architecture principles. The frontend is built with Next.js and provides both a POS interface for staff and a management dashboard for owners."
+        data-features="JWT authentication with branch-scoped role permissions,Product CRUD with soft-delete and barcode-based lookup,Transaction-safe stock adjustments using row-level locking,Stock movement logging and audit trail,Next.js POS screen and owner dashboard,Containerized deployment with Docker Compose and Nginx"
+        data-link="https://github.com/Theeraphat101/Lottery-Marketplace-Mobile-Application.git">
+        <div class="project-thumb">
+          <img src="assets/Lottery_project.png" alt="Flappy Bird Blockchain"
+            onerror="this.parentNode.innerHTML='<div class=\'project-thumb-placeholder\' style=\'background:#0a1a10;\'><i class=\'fab fa-ethereum\' style=\'color:#6ee7b7;font-size:2.5rem;\'></i></div><div class=\'project-num\'>01</div>';">
+          <div class="project-num">01</div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">Flutter</span>
+            <span class="project-tag">Dart</span>
+            <span class="project-tag">FirebaseL</span>
+          </div>
+          <div class="project-title">Multi-Branch POS System</div>
+          <p class="project-desc">Production-oriented retail POS and inventory system with branch-scoped roles, clean
+            architecture, and containerized deployment.</p>
+          <div class="project-arrow">View Details <i class="fas fa-arrow-right" style="font-size:0.7rem;"></i></div>
+        </div>
+      </div>
+
+      <!-- 02 Real-time Thai Food -->
+      <div class="project-card" data-project data-title="Workspace Booking System" data-img="assets/foodthai.png"
+        data-tags="Python, PyTorch, OpenCV"
+        data-desc="A web application for managing desk and meeting room reservations within an office environment. Users can check real-time availability, submit bookings, and receive automated email confirmations. The system includes an admin panel for managing room inventory and reservation records."
+        data-features="Desk and meeting room reservation management,Real-time seat and room availability display,Automated booking confirmation via email,Booking cancellation with immediate availability update,Admin dashboard for room and user management"
+        data-link="https://github.com/Theeraphat101/Detec_food_final.git">
+        <div class="project-thumb">
+          <img src="assets/foodthai.png" alt="Workspace Booking System"
+            onerror="this.parentNode.innerHTML='<div class=\'project-thumb-placeholder\'style=\'background:#1a1a2a;\'><i class=\'fas fa-calendar-check\' style=\'color:#a78bfa;font-size:2.5rem;\'></i></div><div class=\'project-num\'>02</div>';">
+          <div class="project-num">02</div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">PyTorch</span>
+            <span class="project-tag">OpenCV</span>
+          </div>
+          <div class="project-title">Workspace Booking System</div>
+          <p class="project-desc">Office reservation platform with real-time availability, automated email confirmation,
+            and an admin management dashboard.</p>
+          <div class="project-arrow">View Details <i class="fas fa-arrow-right" style="font-size:0.7rem;"></i></div>
+        </div>
+      </div>
+
+      <!-- 03 Employee Attendance Management System -->
+      <div class="project-card" data-project data-title="Go Backend Practice Repository"
+        data-tags="Go,Concurrency,Clean Architecture,Unit Testing"
+        data-desc="A web-based asset management system for tracking office equipment throughout its lifecycle. The system supports equipment registration, status monitoring, and advanced search. Access is controlled through role-based permissions, with separate views for administrators and standard users."
+        data-features="Equipment registration and lifecycle record management,Status tracking and condition monitoring,Advanced search with multi-criteria filters,Role-based access control with separate admin and user views,User authentication with session management"
+        data-link="https://github.com/Theeraphat101/Employee-Attendance-Management-System.git">
+        <div class="project-thumb">
+          <div class="project-thumb-placeholder" style="background: linear-gradient(135deg, #002d3a 0%, #005577 100%);">
+            <i class="fa-solid fa-business-time" style="color:#00acd7; font-size:3rem;"></i>
+          </div>
+          <div class="project-num">03</div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">Java</span>
+            <span class="project-tag">MySQL</span>
+          </div>
+          <div class="project-title">Equipment Tracking System</div>
+          <p class="project-desc">Asset management system for office equipment with lifecycle tracking, advanced search,
+            and role-based access control.</p>
+          <div class="project-arrow">View Details <i class="fas fa-arrow-right" style="font-size:0.7rem;"></i></div>
+        </div>
+      </div>
+
+      <!-- 04 Phonebook -->
+      <div class="project-card" data-project data-title="AutoTrade Management System"
+        data-img="assets/phonebook.png" data-tags="Java,SQL"
+        data-desc="A desktop application for managing used car trading operations. The system covers the full transaction workflow — from vehicle acquisition and listing through to sale, payment processing, and report generation. Customer purchase history is maintained for reference across transactions."
+        data-features="Vehicle purchase and sales transaction management,Payment processing and invoice generation,Customer history and transaction records,Automated report generation for sales summaries,Inventory status and availability management"
+        data-youtube="https://youtu.be/EtGa397UnpU">
+        <div class="project-thumb">
+          <img src="assets/phonebook.png" alt="AutoTrade Management System"
+            onerror="this.parentNode.innerHTML='<div class=\'project-thumb-placeholder\' style=\'background:#1a1a1a;\'><i class=\'fas fa-car\' style=\'color:#6b85ff;font-size:2.5rem;\'></i></div><div class=\'project-num\'>04</div>';">
+          <div class="project-num">04</div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">Java</span>
+            <span class="project-tag">SQL</span>
+          </div>
+          <div class="project-title">AutoTrade Management System</div>
+          <p class="project-desc">Desktop system for used car trading — covering purchase, sales, payment processing,
+            and automated reporting.</p>
+          <div class="project-arrow">View Details <i class="fas fa-arrow-right" style="font-size:0.7rem;"></i></div>
+        </div>
+      </div>
+
+      <!-- 05 Game car -->
+      <div class="project-card" data-project data-title="Flappy Bird — Blockchain Edition"
+        data-img="assets/car_game.png" data-tags="Solidity,JavaScript,React.js,Web3.js"
+        data-desc="A browser-based Flappy Bird game integrated with the Ethereum blockchain. Players earn in-game tokens upon completing runs, which can be spent in an on-chain marketplace to purchase cosmetic skins represented as NFTs. All token transfers and NFT ownership are managed by Solidity smart contracts."
+        data-features="In-game token rewards tied to gameplay performance,On-chain NFT marketplace for cosmetic skin purchases,Solidity smart contracts for token issuance and NFT ownership,MetaMask wallet integration for transaction signing,Smart contract interaction via Web3.js"
+        data-youtube="https://youtu.be/FvdXolbVr-E">
+        <div class="project-thumb">
+          <img src="assets/car_game.png" alt="Flappy Bird Blockchain"
+            onerror="this.parentNode.innerHTML='<div class=\'project-thumb-placeholder\' style=\'background:#0a1a10;\'><i class=\'fab fa-ethereum\' style=\'color:#6ee7b7;font-size:2.5rem;\'></i></div><div class=\'project-num\'>05</div>';">
+          <div class="project-num">05</div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">Java</span>
+          </div>
+          <div class="project-title">Flappy Bird — Blockchain Edition</div>
+          <p class="project-desc">Browser game integrated with Ethereum smart contracts — players earn tokens and
+            purchase NFT cosmetics via an on-chain marketplace.</p>
+          <div class="project-arrow">View Details <i class="fas fa-arrow-right" style="font-size:0.7rem;"></i></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── PROJECT MODAL ─── -->
+  <div id="project-modal" class="modal-backdrop">
+    <div class="modal">
+      <div class="modal-img-area" id="modal-img-area">
+        <div class="modal-header">
+          <button class="modal-close-btn" id="modal-close"><i class="fas fa-times"></i></button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="modal-tags" id="modal-tags"></div>
+        <h2 class="modal-title" id="modal-title"></h2>
+        <p class="modal-desc" id="modal-desc"></p>
+        <div class="modal-features-title">Key Features</div>
+        <ul class="modal-features" id="modal-features"></ul>
+        <div class="modal-links" id="modal-links"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ─── CONTACT ─── -->
+  <section id="contact" class="section reveal">
+    <div class="section-header">
+      <span class="section-num">05</span>
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-wrap">
+      <div>
+        <div class="contact-info-label">Contact</div>
+        <div class="contact-links">
+          <a href="mailto:talay.teerapat@gmail.com" class="contact-link-row">
+            <div class="contact-link-icon"><i class="fas fa-envelope"></i></div>
+            talay.teerapat@gmail.com
+          </a>
+          <a href="https://github.com/Theeraphat101" target="_blank" rel="noopener" class="contact-link-row">
+            <div class="contact-link-icon"><i class="fab fa-github"></i></div>
+            github.com/Theeraphat101
+          </a>
+          <a href="https://line.me/ti/p/IqTS58qMnj" target="_blank" rel="noopener" class="contact-link-row">
+            <div class="contact-link-icon"><i class="fa-brands fa-line"></i></div>
+            Line ID : 0927734468
+          </a>
+
+          <a target="_blank" rel="noopener" class="contact-link-row">
+            <div class="contact-link-icon"><i class="fa-solid fa-phone"></i></div>
+            Phone : 0927734468
+          </a>
+
+        </div>
+      </div>
+      <!-- <div>
+        <form id="contact-form">
+          <div class="form-group">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-input" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-input" placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Message</label>
+            <textarea class="form-textarea" placeholder="Describe your project or inquiry..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="width:100%; justify-content:center;">
+            Send Message <i class="fas fa-paper-plane" style="font-size:0.75rem;"></i>
+          </button>
+        </form>
+      </div> -->
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <div class="footer-left">© 2026 Theeraphat — All rights reserved</div>
+    <div class="footer-socials">
+      <a href="https://github.com/Theeraphat101" target="_blank" rel="noopener" class="social-link"
+        aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="mailto:talay.teerapat@gmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://line.me/ti/p/IqTS58qMnj" target="_blank" rel="noopener" class="social-link"
+        aria-label="Telegram"><i class="fa-brands fa-line"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
